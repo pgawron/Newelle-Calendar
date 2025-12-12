@@ -55,7 +55,7 @@ class CalendarExtension(NewelleExtension):
 
     def add_tab_menu_entries(self) -> list:
         return [
-            TabButtonDescription("Calendar tab", "view-calendar-day-symbolic", lambda x, y: self.open_calendar(x))
+            TabButtonDescription("Calendar tab", "x-office-calendar-symbolic", lambda x, y: self.open_calendar(x))
         ]
 
     def get_additional_prompts(self) -> list:
